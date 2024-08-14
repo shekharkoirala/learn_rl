@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learn-rl"
+version = "0.1.0"
+description = ""
+authors = ["shekharkoirala <shekharkoirala4@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.4.0"
+pandas = "^2.2.2"
+spacy = "^3.7.5"
+wandb = "^0.17.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
